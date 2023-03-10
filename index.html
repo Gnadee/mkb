@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mert Kerem Belen | About Me</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap and Font Awesome css-->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Permanent+Marker">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <!-- Theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div style="background-image: url('img/video-bg.jpg')" class="main"> 
+      <!-- video background-->
+      <!-- replace URLs with your video content URL-->
+      <video id="video-background" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0">
+      </video>
+      <script>
+        var a = ['silver-lining-video.mp4', 'yagmur-damlalari.mp4', 'sahil.webm'];
+        var vid_adi = a[Math.floor(Math.random()*a.length)];
+        var vid_konum = "video/"+vid_adi;
+        document.getElementById("video-background").src = vid_konum;
+      </script>
+      <div class="overlay"></div>
+	  
+      <div class="container">
+        <!--<p class="social">
+		<a href="http://fb.me/mertkerembelen" title="" class="facebook"><i class="fa fa-facebook"></i></a>
+		<a href="http://twitter.com/by_keremm" title="" class="twitter"><i class="fa fa-twitter"></i></a>
+		<a href="https://plus.google.com/u/0/112673416814362907398" title="" class="gplus"><i class="fa fa-google-plus"></i></a>
+		<a href="http://instagram.com/by_keremm" title="" class="instagram"><i class="fa fa-instagram"></i></a></p>-->
+        <h1 class="cursive">Mert Kerem Belen</h1>
+        <!--<h2 class="sub">Çok Yakında Buralardayım. </h2>-->
+		<h1 class="sub">
+			<p class="social">
+			<a href="http://fb.me/mertkerembelen" target="_blank" title="" class="facebook"><i class="fa fa-facebook"></i></a>
+			<a href="http://twitter.com/mkerembelen" target="_blank" title="" class="twitter"><i class="fa fa-twitter"></i></a>
+			<a href="https://github.com/Gnadee" target="_blank" title="" class="github"><i class="fa fa-github"></i></a>
+			<a href="http://instagram.com/mkerembelen" target="_blank" title="" class="instagram"><i class="fa fa-instagram"></i></a>
+			<a href="mailto:kerembln@gmail.com" target="_blank" title="" class="email"><i class="fa fa-envelope"></i></a>
+			</p>
+		</h1>
+      </div>
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <p>&copy;2016 Mert Kerem Belen</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- JAVASCRIPT FILES -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/front.js"></script>
+  </body>
+</html>
